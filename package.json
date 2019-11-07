@@ -1,0 +1,22 @@
+{
+  "name": "optimizador",
+  "version": "1.0.0",
+  "description": "Optimizador de imagenes ",
+  "main": "optimizar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alvise Leal",
+  "license": "MIT",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "imagemin": "^7.0.0",
+    "imagemin-gm": "^2.0.2",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-webp": "^5.1.0",
+    "sharp": "^0.22.1",
+    "yargs": "^14.2.0"
+  },
+  "bin": "./optimizar.js"
+}
